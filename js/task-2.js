@@ -4,7 +4,7 @@ class Storage {
     this.#items = params;
   }
 
-  get items() {
+  getItems() {
     return this.#items;
   }
 
